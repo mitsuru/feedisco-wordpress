@@ -10,3 +10,5 @@ end
 
 require "feedisco/wordpress/version"
 require "feedisco/wordpress/discovery"
+
+Feedisco::Wordpress.extend Feedisco::Wordpress::Discovery
